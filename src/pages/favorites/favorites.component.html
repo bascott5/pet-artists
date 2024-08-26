@@ -1,0 +1,13 @@
+<main>
+    <p [style.display]="this.isEmpty ? 'block' : 'none'">No favorites yet! Do you just not like animals?</p>
+    <div id="dog-api" class="dog-container" [style.padding-bottom]="this.isEmpty ? '0' : '25px'">
+        @for (pet of pets; track pet) {
+            @if (pet.liked == true) {
+                <div class="dog">
+                    <img src={{this.pet.url}} width="400px" height="266px" alt="Bark!" (click)="this.selection = this.pet.url">
+                </div>
+            }
+        }
+    </div>
+    <dog-view url={{this.selection}}></dog-view>
+</main>

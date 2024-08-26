@@ -1,0 +1,5 @@
+<button (click)="this.setOpen()">{{ this.open ? '&#9698;' : '&#9700;'}}</button>
+<div [style.display]="this.open ? 'block' : 'none'">
+    one pet
+</div>
+<app-canvas></app-canvas>

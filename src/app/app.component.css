@@ -1,0 +1,23 @@
+.dog-container {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin: 10px 25px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+img:hover {
+  opacity: 0.75;
+}
+
+button {
+  display: block;
+  margin: 25px auto;
+}

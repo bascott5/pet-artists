@@ -1,0 +1,58 @@
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.dog-container {
+    background-color: whitesmoke;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog {
+    position: relative;
+    margin: 10px 25px;
+    width: 400px;
+    height: 266px;
+}
+
+img {
+    margin: 10px 25px;
+    cursor: pointer;
+    object-fit: cover;
+}
+  
+img:hover {
+    opacity: 0.75;
+}
+
+button {
+    display: block;
+    margin: 25px auto;
+    border: none;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.like {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+    border: none;
+}
+
+p {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
