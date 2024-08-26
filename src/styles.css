@@ -5,7 +5,7 @@ body {
     width: 95%;
 }
 
-@font-face { font-family: Robot; src: url('../public/Roboto/Roboto-Light.ttf'); } 
+@font-face { font-family: Robot; src: url('../src/assets/Roboto/Roboto-Light.ttf'); } 
 
 h1, h2, h3, h4, h5, h6, p, button {
     font-family: Robot;
